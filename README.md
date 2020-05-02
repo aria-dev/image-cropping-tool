@@ -1,5 +1,26 @@
 # ImageCroppingTool
 
+# Image Cropping Tool [Provisional] 
+
+> This single page application is built with Angular, NodeJS and Jimp and is hosted on Firebase
+
+This tool uses:
+
+ - [jimp](https://www.npmjs.com/package/jimp)
+
+
+### TODO:
+ - Create an angular project that uploads an image into Firebase
+ - The angular frontend will be capable of creating a select area to generate cropping data
+ - The angular frontend saves the cropping data along with the url of the image stored
+ - The angular project sends this data to node backend
+ - The node backend are actually firebase functions
+ - The node backend saves a cropped image into firebase
+ - The node backend sends the url back to the angular via observable
+ - The angular frontend lets the user download the image
+ - The image name is customized to prevent duplication or obfuscation
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
 ## Development server
